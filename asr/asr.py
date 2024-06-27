@@ -31,8 +31,8 @@ def open_asr(asr_inp_dir, asr_opt_dir, asr_model, asr_model_size, asr_lang):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Batch offline ASR task")
-    parser.add_argument("--asr_inp_dir", type=str,default="/home/weizhenbian/web/cut")
-    parser.add_argument("--asr_opt_dir", type=str,default="/home/weizhenbian/web/text_from_audio")
+    parser.add_argument("--asr_inp_dir", type=str,default="/cut")
+    parser.add_argument("--asr_opt_dir", type=str,default="/text_from_audio")
     parser.add_argument("--asr_model", type=str, default="Faster Whisper (多语种)")
     parser.add_argument("--asr_model_size", type=str, default="large")
     parser.add_argument("--asr_lang", type=str, default="zh")
