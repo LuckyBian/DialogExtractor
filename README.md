@@ -2,7 +2,7 @@
 DialogExtractor is a specialized tool designed to extract emotionally rich dialogues from audiobooks of novels. This project stems from the need to enhance Text-to-Speech (TTS) systems by providing them with high-quality, emotion-laden audio data, which is crucial for creating more expressive and realistic speech outputs.
 
 ## Overview
-Traditional TTS systems can usually only synthesize simple emotions such as happiness and sadness. However, complex emotions in real life, such as bitterness and sadness, are difficult to control through text prompts, and there is even a lack of relevant data sets. To this end, DialogExtractor constructs an emotionally rich audio database by accurately extracting the dialogues of characters in rich audio novels. By leveraging this tool, developers can significantly improve the emotional responsiveness of their TTS applications, making them more attractive and realistic.
+Traditional TTS systems can usually only synthesize simple emotions such as happiness and sadness. However, complex emotions in real life, such as bitterness and sadness, are difficult to control through text prompts, and there is even a lack of relevant data sets. To this end, DialogExtractor constructs an emotionally rich audio database by accurately extracting the dialogues of characters in rich audio novels. By leveraging this tool, developers can significantly improve the emotional responsiveness of their TTS applications, making them more attractive and realistic. The whole process is shown in the figure below:
 
 ## Challenges
 
