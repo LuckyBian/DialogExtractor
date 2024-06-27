@@ -22,3 +22,11 @@ conda create -n name python=3.9
 conda activate name
 pip install -r requirements.txt
 ```
+
+### Get Dialog From Webpage:
+
+In this step, you need to extract the dialogues of the characters based on the HTML code of the page where your target novel is located. Here, we take [https://m.xbiqugew.com/](Biquge) as an example to crawl the dialogues of the novel. The parameters that need to be changed are: 1. Web link. 2. Start page. 3. End interface. 4. Crawl location.
+
+```
+python get_web.py
+```
