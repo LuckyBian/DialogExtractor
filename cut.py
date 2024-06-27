@@ -2,8 +2,8 @@ from pydub import AudioSegment
 import os
 
 # 源文件夹和目标文件夹
-src_folder = '/home/weizhenbian/web/20'
-dst_folder = '/home/weizhenbian/web/cut'
+src_folder = '/path/to/speech/folder'
+dst_folder = '/cut'
 
 # 检查目标文件夹是否存在，如果不存在则创建
 if not os.path.exists(dst_folder):

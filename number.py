@@ -1,7 +1,7 @@
 import os
 
 # 设置文件夹的路径
-folder_path = '/data/weizhen/output1'
+folder_path = '/path/to/your/folder'
 
 # 计算文件夹中的文件数
 file_count = len([name for name in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, name))])

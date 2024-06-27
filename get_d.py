@@ -1,11 +1,11 @@
 import os
 
 # 文件夹路径
-audio_folder = '/home/weizhenbian/web/cut'  # wav音频文件夹
+audio_folder = '/cut'  # wav音频文件夹
 text_folder = '/home/weizhenbian/web/text_from_audio'  # 音频对应的文本文件夹
-dialogue_folder = '/home/weizhenbian/web/getweb/texts'  # 人物对白文本文件夹
-modified_folder = '/home/weizhenbian/web/output1'  # 修改后的文本文件夹，包含引号的对白
-dialogue_only_folder = '/home/weizhenbian/web/output2'  # 只包含对白的文本文件夹
+dialogue_folder = '/texts'  # 人物对白文本文件夹
+modified_folder = '/output1'  # 修改后的文本文件夹，包含引号的对白
+dialogue_only_folder = '/output2'  # 只包含对白的文本文件夹
 
 # 确保输出文件夹存在
 os.makedirs(modified_folder, exist_ok=True)

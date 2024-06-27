@@ -17,4 +17,4 @@ def convert_mp3_to_wav(folder_path):
             print(f"Converted and removed: {mp3_path}")
 
 # 使用示例
-convert_mp3_to_wav("/home/weizhenbian/web/20")
+convert_mp3_to_wav("/path/to/speech/folder")

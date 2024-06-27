@@ -20,6 +20,6 @@ def get_total_duration_wav(directory):
     return hours, minutes, seconds
 
 # Specify the directory containing WAV files
-directory = '/data/weizhen/getweb2/final'
+directory = '/path/to/your/folder'
 hours, minutes, seconds = get_total_duration_wav(directory)
 print(f"Total Duration: {hours} hours, {minutes} minutes, and {seconds} seconds")

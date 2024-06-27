@@ -20,4 +20,4 @@ def rename_files(directory):
 
 # 使用示例：
 # replace '/path/to/your/folder' with the actual path to the directory containing your files
-rename_files('/home/weizhenbian/web/7')
+rename_files('/path/to/your/folder')

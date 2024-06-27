@@ -11,10 +11,14 @@ inference_pipeline = pipeline(
     model_revision="v2.0.4",
     output_dir='./tmp')
 
+
 # Specify the directories
-audio_folder = "/home/weizhenbian/web/cut"
-text_folder = "/home/weizhenbian/web/output1"
-output_folder = "/home/weizhenbian/web/final"
+audio_folder = "/cut"
+text_folder = "/output1"
+output_folder = "/final"
+
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
 
 # Function to remove quotes from the text and overwrite the original text file
 def remove_quotes_and_overwrite(file_path):
