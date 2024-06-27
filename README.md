@@ -13,3 +13,12 @@ Traditional TTS systems can usually only synthesize simple emotions such as happ
 2. Extraction of dialogue audio: We need to determine which parts of an audio are dialogues and extract them accurately. To do this, we use FunASR to timestamp and then extract them.
 
 3. Audio filtering: After extraction, some dialogues may be too short to be used, so we need to filter the audio again.
+
+## How to use it
+
+### Create the Env:
+```
+conda create -n name python=3.9
+conda activate name
+pip install -r requirements.txt
+```
