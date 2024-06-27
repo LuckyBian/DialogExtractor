@@ -1,0 +1,15 @@
+pydub==0.25.1
+modelscope==1.15.0
+torch==1.12.1
+faster_whisper==1.0.2
+tqdm==4.64.0
+requests==2.28.1
+beautifulsoup4==4.11.1
+regex==2024.4.28
+glob
+os
+sys 
+subprocess
+time
+traceback
+funasr==1.0.27
