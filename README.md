@@ -64,3 +64,23 @@ The original audio is trimmed to obtain the character dialogue.
 ```
 python cutaudio.py
 ```
+
+## Other tools
+
+### Get the number of audio in a folder
+
+```
+python number.py
+```
+
+### Get the total time of audio in a folder
+
+```
+python gettime.py
+```
+
+### Rename all audios in a folder
+
+```
+python rename.py
+```
