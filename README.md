@@ -30,3 +30,37 @@ In this step, you need to extract the dialogues of the characters based on the H
 ```
 python get_web.py
 ```
+
+### Preprocessing
+
+Due to a series of issues such as data format, audio length, etc., the audio data needs to be initially screened.
+
+```
+python mp3twav.py
+python delnonewav.py
+python cut.py
+```
+
+### ASR
+
+Perform ASR processing on all audio and identify the corresponding text.
+```
+cd asr
+python asr.py
+```
+
+### Filtering
+
+Filter out text containing dialogue.
+
+```
+python get_d.py
+```
+
+### Crop audio
+
+The original audio is trimmed to obtain the character dialogue.
+
+```
+python cutaudio.py
+```
