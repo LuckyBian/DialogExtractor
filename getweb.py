@@ -51,7 +51,7 @@ def crawl_website(base_url, start_page, end_page):
         crawl_sub_pages(base_url, page)
 
 # Adjust the base URL, start, and end pages as necessary
-base_url = 'https://ac0.bq16.cc/book/37196/'
+base_url = 'https://da6fa9c20a9a60a17ca0b.bq16.cc/book/37330/'
 start_page = 1
-end_page = 1682
+end_page = 1821
 crawl_website(base_url, start_page, end_page)
