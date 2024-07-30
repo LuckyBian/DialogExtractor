@@ -84,3 +84,6 @@ python gettime.py
 ```
 python rename.py
 ```
+# Emotion Recognition
+
+Click [here](https://github.com/Grace9994/CoMoSVC?tab=readme-ov-file)
