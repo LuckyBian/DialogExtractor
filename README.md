@@ -86,4 +86,4 @@ python rename.py
 ```
 # Emotion Recognition
 
-Click [here](https://github.com/Grace9994/CoMoSVC?tab=readme-ov-file)
+Click [here](https://github.com/thuhcsi/SECap)
